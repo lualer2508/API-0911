@@ -1,0 +1,4 @@
+local VirtualInputManager = game:GetService("VirtualInputManager")
+VirtualInputManager:SendKeyEvent(true, "1", false, game)
+task.wait(0.1)
+VirtualInputManager:SendKeyEvent(false, "1", false, game)
